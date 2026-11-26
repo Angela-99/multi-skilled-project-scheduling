@@ -1,0 +1,15 @@
+BASELINE (deadline 20 working days, lateness $1,000/day, overtime x1.5)
+Status:                 OPTIMAL
+Total cost:             $47,668
+  Labour cost:          $47,668
+  Lateness penalty:     $0
+Project length:         20 working days (0 late)
+Stage lengths (days):   [2, 4, 2, 4, 2, 2, 2, 2]
+Total hours worked:     1,524 (overtime 64)
+Workers used:           10 of 10
+
+EQUAL-SPLIT REFERENCE (every worker does an equal share of each skill's output)
+Labour cost:            $58,088
+Project length:         24 working days (4 late, lateness penalty $4,000)
+Total cost:             $62,088
+Optimised plan saves:   $10,420 of labour cost (18%) and finishes 4 days sooner
